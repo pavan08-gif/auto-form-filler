@@ -30,7 +30,7 @@ for row in ws.iter_rows(max_col = 3,min_row = 2,max_row = 11,values_only = True)
     element_submit = wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR,'div[aria-label = "Submit"]')))
     #driver.execute_script("arguments[0].scrollIntoView({block:'center'});", element_submit)
     element_submit.click()
-    
+#testing if git works
 driver.quit()
 
  
